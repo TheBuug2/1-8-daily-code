@@ -1,0 +1,10 @@
+#while loop to print the numbers 0-10 counting by 2s
+num = 0 #starting point
+while num<50: #go one above 10 so it prints
+    print(num, end = " ")
+    num += 5 #what you count by
+
+#while loop to print "skibidi" until the user types "javier stop"
+UserInput = "metallica is the best band" #dummy value
+while UserInput != "yes":
+    UserInput = input("nope")
