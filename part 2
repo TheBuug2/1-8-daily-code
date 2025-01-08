@@ -1,0 +1,8 @@
+horror = ["Jason", "MichaelMyers", "Chucky"]
+print(horror)
+horror.append("Leatherface")
+print(horror)
+horror.sort()
+print(horror)
+horror.remove("Jason")
+print(horror)
